@@ -21,9 +21,9 @@ We used React Native in the frontend. Next, we designed and created login, regis
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
 
-| Login Screen | Reset Screen | Home Screen | Course Screen |
-| --- | --- | --- | --- |
-|  |  |  |  |
+| Login Screen | Reset Screen | Home Screen | Course 1 Screen | Course 2 Screen 
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |
 
 | Tutorial Screen | Notes Screen | Payment Screen | Profile Screen |
 | --- | --- | --- | --- |
