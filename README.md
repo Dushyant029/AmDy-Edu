@@ -27,6 +27,6 @@ We used React Native in the frontend. Next, we designed and created login, regis
 
 | Tutorial Screen | Notes Screen | Payment Screen | Profile Screen |
 | --- | --- | --- | --- |
-|  |  |  |  |
+| ![Video](https://user-images.githubusercontent.com/55031190/133920285-c3722df2-eec7-488d-8689-0a7bacf35ddf.png) |  |  |  |
 
 ### Video:
