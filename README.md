@@ -14,6 +14,7 @@ We used React Native in the frontend. Next, we designed and created login, regis
     * HTML5
     * CSS
     * Javascript
+    * NodeJS
     
 ### Screenshots:
 
