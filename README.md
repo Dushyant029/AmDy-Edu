@@ -23,7 +23,7 @@ We used React Native in the frontend. Next, we designed and created login, regis
 
 | Login Screen | Reset Screen | Home Screen | Course 1 Screen | Course 2 Screen | 
 | --- | --- | --- | --- | --- |
-| ![Login](https://user-images.githubusercontent.com/55031190/133919928-41d48eb4-da1a-430a-8603-6e0a17161fc3.png) |  |  |  |  |
+| ![Login](https://user-images.githubusercontent.com/55031190/133919928-41d48eb4-da1a-430a-8603-6e0a17161fc3.png) | ![Reset](https://user-images.githubusercontent.com/55031190/133919930-50b8f60a-1e1a-4a9c-90b6-9fa6eafbd996.png) |  |  |  |
 
 | Tutorial Screen | Notes Screen | Payment Screen | Profile Screen |
 | --- | --- | --- | --- |
