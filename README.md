@@ -19,7 +19,7 @@ We used React Native in the frontend. Next, we designed and created login, regis
 
 | Splash Screen | Swipe Screen 1 | Swipe Screen 2 | Swipe Screen 3 | Signup Screen |
 | --- | --- | --- | --- | --- |
-| ![Splash](https://user-images.githubusercontent.com/55031190/133919742-8288c4d3-5327-445b-8a0e-de82968f640e.png) | ![Swipe1](https://user-images.githubusercontent.com/55031190/133919737-5ceaeb39-a38d-49ce-84ad-a9d1ce6cd2b7.png) | ![Swipe2](https://user-images.githubusercontent.com/55031190/133919739-3f5ee923-e705-4830-9a20-d2fbe5ade7df.png) | ![Swipe3](https://user-images.githubusercontent.com/55031190/133919740-9847d80e-b0a2-418d-8598-fe444934dcfe.png) |  |
+| ![Splash](https://user-images.githubusercontent.com/55031190/133919742-8288c4d3-5327-445b-8a0e-de82968f640e.png) | ![Swipe1](https://user-images.githubusercontent.com/55031190/133919737-5ceaeb39-a38d-49ce-84ad-a9d1ce6cd2b7.png) | ![Swipe2](https://user-images.githubusercontent.com/55031190/133919739-3f5ee923-e705-4830-9a20-d2fbe5ade7df.png) | ![Swipe3](https://user-images.githubusercontent.com/55031190/133919740-9847d80e-b0a2-418d-8598-fe444934dcfe.png) | ![Signup](https://user-images.githubusercontent.com/55031190/133919741-fc35019d-1e66-41be-8ee1-2aca8f70e1ab.png) |
 
 | Login Screen | Reset Screen | Home Screen | Course 1 Screen | Course 2 Screen | 
 | --- | --- | --- | --- | --- |
