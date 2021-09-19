@@ -7,11 +7,11 @@ import {
   TextInput,
   Platform,
   TouchableOpacity,
-  StatusBar
+  StatusBar,
 } from "react-native";
 import { FontAwesome, Feather } from "@expo/vector-icons";
 import * as Animatable from "react-native-animatable";
-import {LinearGradient} from "expo-linear-gradient";
+import { LinearGradient } from "expo-linear-gradient";
 
 const Signup = ({ navigation }) => {
   const [data, setData] = React.useState({
@@ -40,23 +40,23 @@ const Signup = ({ navigation }) => {
   const handlePasswordChange = (val) => {
     setData({
       ...data,
-      password: val
+      password: val,
     });
-  }
+  };
 
   const updateSecureTextEntry = () => {
     setData({
       ...data,
-      secureTextEntry: !data.secureTextEntry
-    })
-  }
+      secureTextEntry: !data.secureTextEntry,
+    });
+  };
 
   return (
     <ImageBackground
       source={require("../../assets/images/logbac.png")}
       style={styles.bacStyle}
     >
-      <StatusBar hidden />  
+      <StatusBar hidden />
       <View style={{ paddingHorizontal: 40, marginTop: 110 }}>
         <Text style={styles.headText}>Create Account,</Text>
         <Text style={styles.subheadText}>Sign up to get started!</Text>
@@ -97,18 +97,44 @@ const Signup = ({ navigation }) => {
             onChangeText={(val) => handlePasswordChange(val)}
           />
           <TouchableOpacity onPress={updateSecureTextEntry}>
-            {data.secureTextEntry ? <Feather name="eye-off" color="#4c4ef9" size={20} /> : <Feather name="eye" color="#4c4ef9" size={20} />}
-          </TouchableOpacity>  
+            {data.secureTextEntry ? (
+              <Feather name="eye-off" color="#4c4ef9" size={20} />
+            ) : (
+              <Feather name="eye" color="#4c4ef9" size={20} />
+            )}
+          </TouchableOpacity>
         </View>
         <View style={styles.button}>
-            <LinearGradient colors={['#ffa09c','#fd796d']} style={styles.logIn}>
-              <Text style={[styles.textSign, {color: '#fff'}]}  onPress={() => {navigation.navigate('Home')}}>Sign Up</Text>
-            </LinearGradient>
+          <LinearGradient colors={["#ffa09c", "#fd796d"]} style={styles.logIn}>
+            <Text
+              style={[styles.textSign, { color: "#fff" }]}
+              onPress={() => {
+                navigation.navigate("Home");
+              }}
+            >
+              Sign Up
+            </Text>
+          </LinearGradient>
         </View>
-      <View style={{flexDirection:'row', marginTop: 60, justifyContent: 'center'}}>
-        <Text style={{fontSize: 20, color: '#05375a'}}>I'm already a member, </Text>
-        <Text style={{fontSize: 20, color: "#4c4ef9",fontWeight: 'bold'}} onPress={() => {navigation.navigate('Login')}}>Log In</Text>
-      </View>
+        <View
+          style={{
+            flexDirection: "row",
+            marginTop: 60,
+            justifyContent: "center",
+          }}
+        >
+          <Text style={{ fontSize: 20, color: "#05375a" }}>
+            I'm already a member,{" "}
+          </Text>
+          <Text
+            style={{ fontSize: 20, color: "#4c4ef9", fontWeight: "bold" }}
+            onPress={() => {
+              navigation.navigate("Login");
+            }}
+          >
+            Log In
+          </Text>
+        </View>
       </View>
     </ImageBackground>
   );
@@ -172,23 +198,23 @@ const styles = StyleSheet.create({
     fontFamily: "Inter-BoldItalic",
     fontSize: 13,
     marginTop: 5,
-    marginLeft: 255
+    marginLeft: 255,
   },
   button: {
-    alignItems: 'center',
-    marginTop: 50
+    alignItems: "center",
+    marginTop: 50,
   },
   logIn: {
-    width: '100%',
+    width: "100%",
     height: 50,
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderRadius: 10
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 10,
   },
-   textSign: {
+  textSign: {
     fontSize: 18,
-    fontWeight: 'bold'
-  }
+    fontWeight: "bold",
+  },
 });
 
 export default Signup;

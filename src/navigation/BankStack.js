@@ -1,5 +1,6 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
+
 import BanksScreen from "../screen/bank";
 
 const BankStack = ({ params }) => {
@@ -9,7 +10,7 @@ const BankStack = ({ params }) => {
       <Stack.Screen
         name="BanksScreen"
         component={BanksScreen}
-        options={{headerShown:false}}
+        options={{ headerShown: false }}
       />
     </Stack.Navigator>
   );

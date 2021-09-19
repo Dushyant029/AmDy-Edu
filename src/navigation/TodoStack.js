@@ -1,6 +1,6 @@
 import React from "react";
-import { Text, View } from "react-native";
 import { createStackNavigator } from "@react-navigation/stack";
+
 import TodoScreen from "../screen/todo";
 
 const TodoStack = ({ params }) => {
@@ -10,7 +10,7 @@ const TodoStack = ({ params }) => {
       <Stack.Screen
         name="TodoScreen"
         component={TodoScreen}
-        options={{ headerShown: false  }}
+        options={{ headerShown: false }}
       />
     </Stack.Navigator>
   );

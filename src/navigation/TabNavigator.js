@@ -1,6 +1,7 @@
 import React from "react";
 import { Image } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+
 import HomeStack from "./HomeStack";
 import TodoStack from "./TodoStack";
 import BankStack from "./BankStack";
@@ -21,14 +22,16 @@ const TabNavigator = ({ params }) => {
                 focused
                   ? require("../../assets/images/course-active.png")
                   : require("../../assets/images/course.png")
-              } style={{
+              }
+              style={{
                 width: 35,
-                height: 35,}}
+                height: 35,
+              }}
             ></Image>
           ),
         }}
       />
-       
+
       <Tab.Screen
         name="Todo"
         component={TodoStack}
@@ -40,9 +43,11 @@ const TabNavigator = ({ params }) => {
                 focused
                   ? require("../../assets/images/todo-active.png")
                   : require("../../assets/images/todo.png")
-              } style={{
+              }
+              style={{
                 width: 35,
-                height: 35,}}
+                height: 35,
+              }}
             ></Image>
           ),
         }}
@@ -59,14 +64,16 @@ const TabNavigator = ({ params }) => {
                 focused
                   ? require("../../assets/images/bank-active.png")
                   : require("../../assets/images/bank.png")
-              } style={{
+              }
+              style={{
                 width: 35,
-                height: 35,}}
+                height: 35,
+              }}
             ></Image>
           ),
         }}
       />
-      
+
       <Tab.Screen
         name="Profile"
         component={ProfileStack}
@@ -78,9 +85,11 @@ const TabNavigator = ({ params }) => {
                 focused
                   ? require("../../assets/images/prof-active.png")
                   : require("../../assets/images/prof.png")
-              } style={{
+              }
+              style={{
                 width: 35,
-                height: 35,}}
+                height: 35,
+              }}
             ></Image>
           ),
         }}
