@@ -19,7 +19,7 @@ We used React Native in the frontend. Next, we designed and created login, regis
 
 | Splash Screen | Swipe Screen 1 | Swipe Screen 2 | Swipe Screen 3 | Signup Screen |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
+| ![Splash](https://user-images.githubusercontent.com/55031190/133919742-8288c4d3-5327-445b-8a0e-de82968f640e.png) |  |  |  |  |
 
 | Login Screen | Reset Screen | Home Screen | Course 1 Screen | Course 2 Screen | 
 | --- | --- | --- | --- | --- |
