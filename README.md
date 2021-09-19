@@ -49,13 +49,6 @@
 - Modal
 - Audio Video 
 
-# Technologies used 🛠️
-
-- React Native
-- NodeJS
-- JavaScript
-- Html5
-- Css
 
 
 ## Learn. Leap. Lead ✌
@@ -69,12 +62,13 @@ We faced numerours challenges throughout the journey. We faced some challenges i
 ## How we built Amdy 😁
 We used React Native in the frontend. Next, we designed and created login, registration and reset forms for users to register/login. We also added the payment gateway page with an awsome design of credit/debit cards. We designed and implemented a dashboard for the mentors and the most important feature in our app is, the user/learner can choose his/her favorite mentor from our mentors section which helps the user to develop his/her skills much faster and much comfortable.
 
-## Technologies we used 🛠️
-    * React Native
-    * HTML5
-    * CSS
-    * Javascript
-    * NodeJS
+## Technologies used 🛠️
+
+- React Native
+- NodeJS
+- JavaScript
+- Html5
+- Css
     
 ### Screenshots: 📷
 
