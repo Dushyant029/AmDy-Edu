@@ -85,9 +85,9 @@ We used React Native in the frontend. Next, we designed and created login, regis
 | ![Video](https://user-images.githubusercontent.com/55031190/133920285-c3722df2-eec7-488d-8689-0a7bacf35ddf.png) | ![Notes](https://user-images.githubusercontent.com/55031190/133920286-6f396288-8e32-41b5-84ae-453813d86206.png) | ![Payment](https://user-images.githubusercontent.com/55031190/133920287-f5a74525-7f13-4d62-a1da-dca1e3ceb1d9.png) | ![Profile](https://user-images.githubusercontent.com/55031190/133920288-6bb72e6a-6ab7-46f5-915e-adc98261def9.png) |
 
 ### Video: 🎥
+https://loom.com/share/83dd24bc56984b19a3d0438968ef0df5
 
 
-
-<p align="center">
+<!-- <p align="center">
     <img src="https://user-images.githubusercontent.com/55031190/133921835-c27621bd-9801-4680-bdb5-5edebd30f48d.png" width="1240" height="300">
-</p>
+</p> -->
